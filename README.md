@@ -4,7 +4,7 @@
 
 Git Hub: https://github.com/HusamAhalim/Weather
 
-Deployed: https://husamahalim.github.io/Weather/.
+Deployed: https://husamahalim.github.io/Weather/
 
 # Weather-Dashboard
 A weather dashboar utilizing APIs
