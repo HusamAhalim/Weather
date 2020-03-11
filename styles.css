@@ -1,0 +1,113 @@
+body {
+   background-color: rgb(175, 173, 173);
+}
+
+h1{
+   background-color:grey;
+   padding: 2%;
+   font-size: 40pt;
+   text-shadow: 2px 2px rgb(10, 10, 10);
+}
+
+#title {
+   color: ivory;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 100px;
+}
+
+#container{
+text-align: center;
+
+}
+#container{
+width: 100%;
+text-align: center;
+height: 1000px;
+
+}
+.searchArea{
+    float: left;
+    margin-left: 50px;
+    padding-right: 30px;
+}
+
+#lastResults{
+    position: relative;
+    float: left;
+    top: 100px;
+    right:275px;
+    /* width: 200px; */
+}
+
+#currentCity{
+position: relative; 
+/* float: left; */
+/* left: 5%; */
+margin-top: 40px;
+margin-bottom: 20px;
+width: 60%; 
+margin-left: 35px;
+/* margin-left: 40px;  */
+
+}
+
+.conditions {
+font-size: 30px;
+font-weight: bold;
+
+
+}
+
+.forecast{
+    /* position: relative;
+    right:25%; */
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.forecastContainer{
+    display: block;
+    margin-left: 23%;
+    
+}
+
+#forecastCard{
+
+   float: left;
+   margin-right: 25px;
+}
+ 
+#forecastCard2 {
+   float: left;
+   margin-right: 25px;
+}
+
+#forecastCard3 {
+   float: left;
+   margin-right: 25px;
+}
+
+#forecastCard4{
+   float: left;
+   margin-right: 25px;
+}
+
+#forecastCard5{
+   float: left;
+}
+
+
+
+
+
+/* table {
+    margin-top: 1em;
+    table-layout: fixed;
+} */
+
+ 
+ 
+
+
+
+

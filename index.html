@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WeatherApp</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="border border dark" id="container">
+      <h1 id="title">Weather</h1>
+
+      <div class="searchArea">
+        <h3>Search for a city:</h3>
+        <input type="text" class="search"/>
+        <button type="button" class="btn btn-primary" id="searchBtn">search</button>
+        <br />
+      </div>
+
+       
+      <div class="list" id="lastResults">
+          
+          <ul class="list-group2"> 
+            
+            </ul>        
+        </div>
+
+      <div class="card" id="currentCity">
+        <div class="card-header">
+          <h4 class="cityName"></h4>
+
+        </div>
+        <br> 
+          <div class="icon"> 
+          <br>
+          <div class="conditions">
+          <p class="temp"></p>
+          
+          <p class="humid"></p>
+          
+          <p class="wind"></p>
+          </div>
+        </div>
+    </div>
+
+    <h3 class="forecast"> 5-Day Forecast: </h3>
+        <div class="forecastContainer">
+            
+         <div class="card text-white bg-primary mb-3" id="forecastCard" style="max-width: 13rem;">
+                   <h5 class="day1date"></h5> 
+                   <div id="day1Icon"></div>                  
+                   <div class="day1Temp"></div>
+                   <br>
+                   <div class="day1Hum"></div> 
+                   <br>           
+            </div>
+            
+            <div class="card text-white bg-primary mb-3" id="forecastCard2" style="max-width: 13rem;">
+                    <h5 class="day2date"></h5>                  
+                    <div class="day2Icon"></div>
+                    <div class="day2Temp"></div>
+                    <br>
+                    <div class="day2Hum"></div> 
+                    <br>           
+             </div>
+
+             <div class="card text-white bg-primary mb-3" id="forecastCard3" style="max-width: 13rem;">
+                    <h5 class="day3date"></h5>                    
+                    <div class="day3Icon"></div>
+                    <div class="day3Temp"></div>
+                    <br>
+                    <div class="day3Hum"></div> 
+                    <br>           
+             </div>
+            
+             <div class="card text-white bg-primary mb-3" id="forecastCard4" style="max-width: 13rem;">
+                    <h5 class="day4date"></h5>                  
+                    <div class="day4Icon"></div>
+                    <div class="day4Temp"></div>
+                    <br>
+                    <div class="day4Hum"></div> 
+                    <br>           
+             </div>
+
+             <div class="card text-white bg-primary mb-3" id="forecastCard5" style="max-width: 13rem;">
+                    <h5 class="day5date"></h5>                    
+                    <div class="day5Icon"></div>
+                    <div class="day5Temp"></div>
+                    <br>
+                    <div class="day5Hum"></div> 
+                    <br>           
+             </div>
+        </div>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script type="text/javascript"></script>
+        <script src="scripts.js"></script>
+    </body>
+    </html>
+    
